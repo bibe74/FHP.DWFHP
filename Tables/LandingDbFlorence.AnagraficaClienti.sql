@@ -1,0 +1,32 @@
+CREATE TABLE [LandingDbFlorence].[AnagraficaClienti]
+(
+[CODSOCIETA] [nvarchar] (4) COLLATE Latin1_General_CI_AS NOT NULL,
+[CODCLI_F] [nvarchar] (10) COLLATE Latin1_General_CI_AS NOT NULL,
+[HistoricalHashKey] [varbinary] (20) NULL,
+[ChangeHashKey] [varbinary] (20) NULL,
+[DatetimeInserted] [datetime] NOT NULL,
+[DatetimeUpdated] [datetime] NOT NULL,
+[DatetimeDeleted] [datetime] NULL,
+[CODUTENTEPADRE] [varchar] (3) COLLATE Latin1_General_CI_AS NOT NULL,
+[DESCR] [nvarchar] (101) COLLATE Latin1_General_CI_AS NOT NULL,
+[DATAINI] [date] NOT NULL,
+[DATAFINE] [date] NOT NULL,
+[RAGSOC1] [nvarchar] (35) COLLATE Latin1_General_CI_AS NULL,
+[CODAGENTE] [nvarchar] (10) COLLATE Latin1_General_CI_AS NOT NULL,
+[CODCLI_STATISTICO] [nvarchar] (10) COLLATE Latin1_General_CI_AS NULL,
+[LIV1] [nvarchar] (10) COLLATE Latin1_General_CI_AS NULL,
+[LIV1_DESCR] [nvarchar] (35) COLLATE Latin1_General_CI_AS NULL,
+[LIV2] [nvarchar] (10) COLLATE Latin1_General_CI_AS NULL,
+[LIV2_DESCR] [nvarchar] (35) COLLATE Latin1_General_CI_AS NULL,
+[LIV3] [nvarchar] (10) COLLATE Latin1_General_CI_AS NULL,
+[LIV3_DESCR] [nvarchar] (35) COLLATE Latin1_General_CI_AS NULL,
+[LIV4] [nvarchar] (10) COLLATE Latin1_General_CI_AS NULL,
+[LIV4_DESCR] [nvarchar] (35) COLLATE Latin1_General_CI_AS NULL,
+[LIV5] [nvarchar] (10) COLLATE Latin1_General_CI_AS NULL,
+[LIV5_DESCR] [nvarchar] (35) COLLATE Latin1_General_CI_AS NULL,
+[LIV6] [nvarchar] (10) COLLATE Latin1_General_CI_AS NULL,
+[LIV6_DESCR] [nvarchar] (35) COLLATE Latin1_General_CI_AS NULL,
+[LIV7] [nvarchar] (10) COLLATE Latin1_General_CI_AS NULL,
+[LIV7_DESCR] [nvarchar] (35) COLLATE Latin1_General_CI_AS NULL
+) ON [PRIMARY]
+GO
